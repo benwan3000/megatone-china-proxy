@@ -2,7 +2,7 @@
   "rewrites": [
     {
       "source": "/(.*)",
-      "destination": "http://166.62.30.149"
+      "destination": "https://166.62.30.149"
     }
   ],
   "headers": [
@@ -10,7 +10,7 @@
       "source": "/(.*)",
       "headers": [
         {
-          "key": "Host",
+          "key": "host",
           "value": "megatone.com.hk"
         }
       ]
